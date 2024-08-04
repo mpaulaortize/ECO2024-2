@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch API Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Browse Anime</h1>
+    <div class="filters">
+      <div class="filter-row">
+        <input id="search" type="text" placeholder="Search" />
+        <select id="type">
+          <option value="">Select Type</option>
+          <option value="tv">TV</option>
+          <option value="movie">Movie</option>
+          <option value="ova">OVA</option>
+          <option value="special">Special</option>
+          <option value="ona">ONA</option>
+          <option value="music">Music</option>
+          <option value="cm">CM</option>
+          <option value="pv">PV</option>
+          <option value="tv_special">TV Special</option>
+        </select>
+      </div>
+      <div class="button-row">
+        <button id="search-button">Search</button>
+        <button id="clear-button">Clear</button>
+      </div>
+    </div>
+    <div id="result-count"></div>
+    <div id="data-container"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

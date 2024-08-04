@@ -1,0 +1,137 @@
+/* Estilo general de la página */
+body {
+  font-family: "Inter", sans-serif; /* Fuente Inter */
+  background-color: #f4f0ef; /* Fondo claro */
+  color: #212121; /* Texto oscuro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor de filtros y resultados */
+#data-container,
+.filters,
+#result-count {
+  width: 80%;
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Contenedor de filtros */
+.filters {
+  display: flex;
+  flex-direction: column; /* Columna para los botones */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Fila de filtros: búsqueda y tipo */
+.filters .filter-row {
+  display: flex;
+  flex-direction: row; /* Fila para los inputs */
+  align-items: stretch;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.filters .filter-row > * {
+  margin: 5px;
+}
+
+/* Estilo de los campos de entrada y botones */
+.filters input {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #ffffff; /* Fondo blanco para el input */
+  color: #1c1c1c; /* Texto oscuro */
+  box-shadow: none; /* Quitar sombra */
+}
+
+.filters select {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #d6d2d1; /* Fondo del select */
+  color: #1c1c1c; /* Texto oscuro */
+  box-shadow: none; /* Quitar sombra */
+  appearance: none; /* Quitar estilos predeterminados */
+  -webkit-appearance: none; /* Quitar estilos predeterminados en WebKit */
+  -moz-appearance: none; /* Quitar estilos predeterminados en Firefox */
+}
+
+/* Estilo del contenedor de select para un estilo personalizado */
+.filters select::-ms-expand {
+  display: none; /* Ocultar el botón de expansión en IE */
+}
+
+.filters select {
+  background: #d6d2d1; /* Asegura que el fondo sea consistente */
+}
+
+/* Estilo de los botones */
+.filters button {
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin: 3px;
+  border: none;
+  background-color: #27272f; /* Fondo de los botones */
+  color: #ffffff; /* Texto blanco */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filters button:hover {
+  background-color: #c990ff; /* Cambio de color al pasar el ratón */
+}
+
+/* Fila de botones */
+.filters .button-row {
+  display: flex;
+  flex-direction: row; /* Fila para los botones */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo de los resultados en grid */
+#data-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Tres columnas */
+  gap: 20px; /* Espacio entre las tarjetas */
+  justify-items: center;
+}
+
+.item {
+  background-color: #eae6e5; /* Fondo claro de las tarjetas */
+  border-radius: 5px;
+  width: 330px;
+  padding: 20px;
+  text-align: center;
+}
+
+.item h2 {
+  font-weight: bold; /* Título en negrita */
+  margin-bottom: 10px;
+  color: #1c1c1c; /* Texto oscuro */
+}
+
+img {
+  width: 100%; /* Imagen ajustada al ancho de la tarjeta */
+  max-width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Estilo del conteo de resultados */
+#result-count {
+  margin-top: 20px;
+  color: #1c1c1c; /* Texto oscuro */
+}
