@@ -1,0 +1,44 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #252525;
+  color: #dfded9; /* Color del texto para que contraste con el fondo oscuro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #a771cf; /* Color de fondo del botón */
+  border: none; /* Sin borde */
+  color: #fff; /* Color del texto del botón */
+  border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+.card {
+  background-color: #2f2f2f; /* Color de fondo de la tarjeta */
+  border-radius: 3px; /* Bordes redondeados de la tarjeta */
+  padding: 50px;
+  max-width: 300px;
+  text-align: center;
+  margin: 30px;
+}
+
+.card img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
