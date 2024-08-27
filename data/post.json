@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Beautiful Sunset",
+    "description": "A stunning view of the sunset over the mountains.",
+    "imageUrl": "https://example.com/sunset.jpg",
+    "date": "2024-08-25T18:30:00.000Z"
+  },
+  {
+    "title": "Delicious Meal",
+    "description": "Enjoying a delicious homemade pizza with fresh ingredients.",
+    "imageUrl": "https://example.com/pizza.jpg",
+    "date": "2024-08-26T12:00:00.000Z"
+  },
+  {
+    "title": "City Skyline",
+    "description": "The city skyline illuminated at night with bright lights.",
+    "imageUrl": "https://example.com/city.jpg",
+    "date": "2024-08-27T20:00:00.000Z"
+  },
+  {
+    "title": "Nature Walk",
+    "description": "A peaceful walk through the lush green forest.",
+    "imageUrl": "https://example.com/forest.jpg",
+    "date": "2024-08-28T09:00:00.000Z"
+  },
+  {
+    "title": "Summer Vacation",
+    "description": "Relaxing by the beach during a sunny summer vacation.",
+    "imageUrl": "https://example.com/beach.jpg",
+    "date": "2024-08-29T15:00:00.000Z"
+  }
+]
