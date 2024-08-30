@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Quién ganará?</title>
+  </head>
+  <body>
+    <script src="http://localhost:5050/socket.io/socket.io.js"></script>
+    <div id="player-form">
+      <h1>🧑‍💻¿Quién ganará?🧑‍💻</h1>
+      <input type="text" id="player-name" placeholder="Ingresa tu nombre" />
+
+      <div id="move-selection">
+        <p>Elige tu movimiento macabro 😎:</p>
+        <div class="icons">
+          <button data-move="piedra">✊</button>
+          <button data-move="papel">📋</button>
+          <button data-move="tijera">✌️</button>
+        </div>
+      </div>
+
+      <p id="timer">⏳ ¡Cuidado con el tiempo!: 10s</p>
+      <button id="fetch-button">¡A jugar! 🤪</button>
+
+      <div id="data-container"></div>
+    </div>
+
+    <script src="player.js"></script>
+  </body>
+</html>
